@@ -1,10 +1,12 @@
-import { Route } from 'react-router-dom';
-import './App.css';
+import { Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import Header from './Components/Header';
 
 function App() {
   return (
     <div className="App">
-    test vercel
+      <Header />
+      <Outlet />
     </div>
   );
 }
