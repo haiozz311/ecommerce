@@ -16,7 +16,7 @@ const productApi = {
         newParams });
         // Build response and return
         return {
-            data: productList,
+            data: productList.data,
             pagination: {
                 page: params._page,
                 limit: params._limit,
